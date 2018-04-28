@@ -1,0 +1,43 @@
+#+TITLE: My (Potential) Game - Notes
+* Game Details
+** Name (as requested by Sebastian)
+Save The Star Kingdom
+** Levels
+*** Boss
+Some final boss - again, suggested by Sebastian
+* Code structure
+** Classes
+*** Application Class
+    Initializes and run the game. Here are the following tasks it performs and the variables/members it uses:
+**** Methods
+***** int init()
+      This sets up GLFW and GLAD. This must be done before trying to compile any shaders
+***** int run()
+      This will just call the Renderer's loop method which handles inputs and renders images to the screen. Inputs should be handled by another class later
+**** Members
+***** (private) GLFWwindow *window
+      This will be used to initialize the window. It will then be sent to the Renderer as the canvas to render images onto
+*** Renderer Class
+    Renders the images onto the screen. It will receive a GLFWwindow object from the Application and render the images onto it.
+
+    Here are the following tasks it performs and the variables/members it uses:
+**** Methods
+***** int loop()
+      This will handle the input and render the images. It calls the processInput function
+***** processInput()
+      This is the function that actually processes the inputs
+*** Shader Class
+    Creates and combines the vertex and fragment shaders
+*** Game State Class
+There will have to be a way to determine what state the game is in. Depending on the state will determine what's on the screen and how to update the items
+*** Image Class
+    Each item that is displayed in the game will be an image class at its core. Depending on what it is will determine what kind of subclass it is
+**** Buffers
+     Each image will need some VBOs and VAOs associated with it
+***** VBO
+      Each image instance will have at least two VBOs associated with it: the item's coordinates and its colors
+**** Menu Class
+ The game will have menu items all over the place for when you start the game, pause the game, etc. This class will contain the details of the menu item. It will probably inherit from a parent ?Image? class
+***** Members
+****** Text
+ The menu item will have some text to display

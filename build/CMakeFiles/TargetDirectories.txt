@@ -1,0 +1,9 @@
+/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/CMakeFiles/rebuild_cache.dir
+/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/CMakeFiles/glad.dir
+/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/CMakeFiles/edit_cache.dir
+/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/CMakeFiles/MyGame.dir
+/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/CMakeFiles/edit_cache.dir
+/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/CMakeFiles/rebuild_cache.dir
+/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/src/CMakeFiles/rebuild_cache.dir
+/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/src/CMakeFiles/edit_cache.dir
+/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/src/CMakeFiles/glfw.dir
