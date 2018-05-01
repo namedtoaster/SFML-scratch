@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame
+CMAKE_SOURCE_DIR = /home/dave/Documents/git/save-the-star-kingom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build
+CMAKE_BINARY_DIR = /home/dave/Documents/git/save-the-star-kingom/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/CMakeFiles /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/CMakeFiles/progress.marks
-	cd /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build && $(MAKE) -f CMakeFiles/Makefile2 libraries/glfw/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/CMakeFiles 0
+	cd /home/dave/Documents/git/save-the-star-kingom/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dave/Documents/git/save-the-star-kingom/build/CMakeFiles /home/dave/Documents/git/save-the-star-kingom/build/libraries/glfw/CMakeFiles/progress.marks
+	cd /home/dave/Documents/git/save-the-star-kingom/build && $(MAKE) -f CMakeFiles/Makefile2 libraries/glfw/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dave/Documents/git/save-the-star-kingom/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build && $(MAKE) -f CMakeFiles/Makefile2 libraries/glfw/clean
+	cd /home/dave/Documents/git/save-the-star-kingom/build && $(MAKE) -f CMakeFiles/Makefile2 libraries/glfw/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,17 +97,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build && $(MAKE) -f CMakeFiles/Makefile2 libraries/glfw/preinstall
+	cd /home/dave/Documents/git/save-the-star-kingom/build && $(MAKE) -f CMakeFiles/Makefile2 libraries/glfw/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build && $(MAKE) -f CMakeFiles/Makefile2 libraries/glfw/preinstall
+	cd /home/dave/Documents/git/save-the-star-kingom/build && $(MAKE) -f CMakeFiles/Makefile2 libraries/glfw/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dave/Documents/git/save-the-star-kingom/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -129,6 +129,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dave/Documents/git/save-the-star-kingom/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

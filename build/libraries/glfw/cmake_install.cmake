@@ -1,4 +1,4 @@
-# Install script for directory: /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glfw
+# Install script for directory: /home/dave/Documents/git/save-the-star-kingom/libraries/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/src/cmake_install.cmake")
+  include("/home/dave/Documents/git/save-the-star-kingom/build/libraries/glfw/src/cmake_install.cmake")
 
 endif()
 

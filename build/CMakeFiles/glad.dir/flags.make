@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/image -I/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/shader -I/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/state -I/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/renderer -I/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glad/include 
+C_INCLUDES = -I/home/dave/Documents/git/save-the-star-kingom/include/image -I/home/dave/Documents/git/save-the-star-kingom/include/shader -I/home/dave/Documents/git/save-the-star-kingom/include/state -I/home/dave/Documents/git/save-the-star-kingom/include/renderer -I/home/dave/Documents/git/save-the-star-kingom/libraries/glad/include 
 

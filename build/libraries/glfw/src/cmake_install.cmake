@@ -1,4 +1,4 @@
-# Install script for directory: /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glfw/src
+# Install script for directory: /home/dave/Documents/git/save-the-star-kingom/libraries/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

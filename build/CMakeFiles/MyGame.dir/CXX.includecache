@@ -102,7 +102,7 @@ GL/glext.h
 GL/glu.h
 -
 
-/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/image/Image.cpp
+/home/dave/Documents/git/save-the-star-kingom/include/image/Image.cpp
 glad/glad.h
 -
 GLFW/glfw3.h
@@ -110,41 +110,41 @@ GLFW/glfw3.h
 iostream
 -
 Image.h
-/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/image/Image.h
+/home/dave/Documents/git/save-the-star-kingom/include/image/Image.h
 
-/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/image/Image.h
+/home/dave/Documents/git/save-the-star-kingom/include/image/Image.h
 glad/glad.h
 -
 GLFW/glfw3.h
 -
 
-/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/renderer/Renderer.cpp
+/home/dave/Documents/git/save-the-star-kingom/include/renderer/Renderer.cpp
 iostream
 -
 Renderer.h
-/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/renderer/Renderer.h
+/home/dave/Documents/git/save-the-star-kingom/include/renderer/Renderer.h
 Shader.h
-/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/renderer/Shader.h
+/home/dave/Documents/git/save-the-star-kingom/include/renderer/Shader.h
 Image.h
-/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/renderer/Image.h
+/home/dave/Documents/git/save-the-star-kingom/include/renderer/Image.h
 
-/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/renderer/Renderer.h
+/home/dave/Documents/git/save-the-star-kingom/include/renderer/Renderer.h
 glad/glad.h
 -
 GLFW/glfw3.h
 -
 Shader.h
-/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/renderer/Shader.h
+/home/dave/Documents/git/save-the-star-kingom/include/renderer/Shader.h
 Image.h
-/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/renderer/Image.h
+/home/dave/Documents/git/save-the-star-kingom/include/renderer/Image.h
 
-/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/shader/Shader.cpp
+/home/dave/Documents/git/save-the-star-kingom/include/shader/Shader.cpp
 iostream
 -
 Shader.h
-/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/shader/Shader.h
+/home/dave/Documents/git/save-the-star-kingom/include/shader/Shader.h
 
-/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/shader/Shader.h
+/home/dave/Documents/git/save-the-star-kingom/include/shader/Shader.h
 glad/glad.h
 -
 string
@@ -156,27 +156,27 @@ sstream
 iostream
 -
 
-/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/source/Application.cpp
+/home/dave/Documents/git/save-the-star-kingom/source/Application.cpp
 iostream
 -
 Application.h
-/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/source/Application.h
+/home/dave/Documents/git/save-the-star-kingom/source/Application.h
 Renderer.h
-/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/source/Renderer.h
+/home/dave/Documents/git/save-the-star-kingom/source/Renderer.h
 
-/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/source/Application.h
+/home/dave/Documents/git/save-the-star-kingom/source/Application.h
 glad/glad.h
 -
 GLFW/glfw3.h
 -
 
-/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/source/main.cpp
+/home/dave/Documents/git/save-the-star-kingom/source/main.cpp
 iostream
 -
 Application.h
-/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/source/Application.h
+/home/dave/Documents/git/save-the-star-kingom/source/Application.h
 Renderer.h
-/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/source/Renderer.h
+/home/dave/Documents/git/save-the-star-kingom/source/Renderer.h
 Image.h
-/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/source/Image.h
+/home/dave/Documents/git/save-the-star-kingom/source/Image.h
 

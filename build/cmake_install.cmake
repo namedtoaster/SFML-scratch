@@ -1,4 +1,4 @@
-# Install script for directory: /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame
+# Install script for directory: /home/dave/Documents/git/save-the-star-kingom
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/cmake_install.cmake")
+  include("/home/dave/Documents/git/save-the-star-kingom/build/libraries/glfw/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dave/Documents/git/save-the-star-kingom/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

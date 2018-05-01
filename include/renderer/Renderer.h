@@ -21,7 +21,7 @@ class Renderer {
     //Image image1(vertices);
   }
 
-  int loop(GLFWwindow *);
+  int render_screen(GLFWwindow *);
   int drawImages();
   // private:
   Shader ourShader;

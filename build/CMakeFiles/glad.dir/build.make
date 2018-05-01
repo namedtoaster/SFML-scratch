@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame
+CMAKE_SOURCE_DIR = /home/dave/Documents/git/save-the-star-kingom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build
+CMAKE_BINARY_DIR = /home/dave/Documents/git/save-the-star-kingom/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/glad.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/glad.dir/flags.make
 
 CMakeFiles/glad.dir/libraries/glad/src/glad.c.o: CMakeFiles/glad.dir/flags.make
 CMakeFiles/glad.dir/libraries/glad/src/glad.c.o: ../libraries/glad/src/glad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/glad.dir/libraries/glad/src/glad.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glad.dir/libraries/glad/src/glad.c.o   -c /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glad/src/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dave/Documents/git/save-the-star-kingom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/glad.dir/libraries/glad/src/glad.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glad.dir/libraries/glad/src/glad.c.o   -c /home/dave/Documents/git/save-the-star-kingom/libraries/glad/src/glad.c
 
 CMakeFiles/glad.dir/libraries/glad/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glad.dir/libraries/glad/src/glad.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glad/src/glad.c > CMakeFiles/glad.dir/libraries/glad/src/glad.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dave/Documents/git/save-the-star-kingom/libraries/glad/src/glad.c > CMakeFiles/glad.dir/libraries/glad/src/glad.c.i
 
 CMakeFiles/glad.dir/libraries/glad/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glad.dir/libraries/glad/src/glad.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glad/src/glad.c -o CMakeFiles/glad.dir/libraries/glad/src/glad.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dave/Documents/git/save-the-star-kingom/libraries/glad/src/glad.c -o CMakeFiles/glad.dir/libraries/glad/src/glad.c.s
 
 CMakeFiles/glad.dir/libraries/glad/src/glad.c.o.requires:
 
@@ -91,7 +91,7 @@ glad_EXTERNAL_OBJECTS =
 libglad.a: CMakeFiles/glad.dir/libraries/glad/src/glad.c.o
 libglad.a: CMakeFiles/glad.dir/build.make
 libglad.a: CMakeFiles/glad.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libglad.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dave/Documents/git/save-the-star-kingom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libglad.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glad.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/glad.dir/clean:
 .PHONY : CMakeFiles/glad.dir/clean
 
 CMakeFiles/glad.dir/depend:
-	cd /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/CMakeFiles/glad.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dave/Documents/git/save-the-star-kingom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dave/Documents/git/save-the-star-kingom /home/dave/Documents/git/save-the-star-kingom /home/dave/Documents/git/save-the-star-kingom/build /home/dave/Documents/git/save-the-star-kingom/build /home/dave/Documents/git/save-the-star-kingom/build/CMakeFiles/glad.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/glad.dir/depend
 

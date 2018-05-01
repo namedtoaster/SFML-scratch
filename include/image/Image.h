@@ -6,7 +6,7 @@
 
 class Image {
  public:
- Image(float* vertex_data) : verts(vertex_data) {}
+  Image(float*);
   void bind();
   //private:
   float * verts;

@@ -6,15 +6,9 @@ using namespace std;
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 
-Application::Application(int W = 600, int H = 600) {
-  cout << "Screen width: " << W << endl;
-  cout << "Screen height: " << H << endl;
-  width = W; height = H;
-}
+Application::Application(int W = 600, int H = 600) : width(W), height(H) {}
 
 int Application::init() {
-  cout << "Init app" << endl;
-
   // glfw: initialize and configure
   // ------------------------------
   glfwInit();
@@ -24,7 +18,7 @@ int Application::init() {
 
   // glfw window creation
   // --------------------
-  window = glfwCreateWindow(width, height, "LearnOpenGL", NULL, NULL);
+  window = glfwCreateWindow(width, height, "Save The Star Kingdom", NULL, NULL);
   if (window == NULL)
     {
       std::cout << "Failed to create GLFW window" << std::endl;
@@ -45,7 +39,7 @@ int Application::init() {
 
 int Application::run() {
   Renderer renderer;
-  renderer.loop(window);
+  renderer.render_screen(window);
 }
 
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame
+CMAKE_SOURCE_DIR = /home/dave/Documents/git/save-the-star-kingom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build
+CMAKE_BINARY_DIR = /home/dave/Documents/git/save-the-star-kingom/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MyGame.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/MyGame.dir/flags.make
 
 CMakeFiles/MyGame.dir/source/main.cpp.o: CMakeFiles/MyGame.dir/flags.make
 CMakeFiles/MyGame.dir/source/main.cpp.o: ../source/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyGame.dir/source/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyGame.dir/source/main.cpp.o -c /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/source/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dave/Documents/git/save-the-star-kingom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyGame.dir/source/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyGame.dir/source/main.cpp.o -c /home/dave/Documents/git/save-the-star-kingom/source/main.cpp
 
 CMakeFiles/MyGame.dir/source/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGame.dir/source/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/source/main.cpp > CMakeFiles/MyGame.dir/source/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dave/Documents/git/save-the-star-kingom/source/main.cpp > CMakeFiles/MyGame.dir/source/main.cpp.i
 
 CMakeFiles/MyGame.dir/source/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGame.dir/source/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/source/main.cpp -o CMakeFiles/MyGame.dir/source/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dave/Documents/git/save-the-star-kingom/source/main.cpp -o CMakeFiles/MyGame.dir/source/main.cpp.s
 
 CMakeFiles/MyGame.dir/source/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/MyGame.dir/source/main.cpp.o.provides.build: CMakeFiles/MyGame.dir/so
 
 CMakeFiles/MyGame.dir/source/Application.cpp.o: CMakeFiles/MyGame.dir/flags.make
 CMakeFiles/MyGame.dir/source/Application.cpp.o: ../source/Application.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyGame.dir/source/Application.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyGame.dir/source/Application.cpp.o -c /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/source/Application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dave/Documents/git/save-the-star-kingom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyGame.dir/source/Application.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyGame.dir/source/Application.cpp.o -c /home/dave/Documents/git/save-the-star-kingom/source/Application.cpp
 
 CMakeFiles/MyGame.dir/source/Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGame.dir/source/Application.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/source/Application.cpp > CMakeFiles/MyGame.dir/source/Application.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dave/Documents/git/save-the-star-kingom/source/Application.cpp > CMakeFiles/MyGame.dir/source/Application.cpp.i
 
 CMakeFiles/MyGame.dir/source/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGame.dir/source/Application.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/source/Application.cpp -o CMakeFiles/MyGame.dir/source/Application.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dave/Documents/git/save-the-star-kingom/source/Application.cpp -o CMakeFiles/MyGame.dir/source/Application.cpp.s
 
 CMakeFiles/MyGame.dir/source/Application.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/MyGame.dir/source/Application.cpp.o.provides.build: CMakeFiles/MyGame
 
 CMakeFiles/MyGame.dir/include/renderer/Renderer.cpp.o: CMakeFiles/MyGame.dir/flags.make
 CMakeFiles/MyGame.dir/include/renderer/Renderer.cpp.o: ../include/renderer/Renderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyGame.dir/include/renderer/Renderer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyGame.dir/include/renderer/Renderer.cpp.o -c /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/renderer/Renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dave/Documents/git/save-the-star-kingom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyGame.dir/include/renderer/Renderer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyGame.dir/include/renderer/Renderer.cpp.o -c /home/dave/Documents/git/save-the-star-kingom/include/renderer/Renderer.cpp
 
 CMakeFiles/MyGame.dir/include/renderer/Renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGame.dir/include/renderer/Renderer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/renderer/Renderer.cpp > CMakeFiles/MyGame.dir/include/renderer/Renderer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dave/Documents/git/save-the-star-kingom/include/renderer/Renderer.cpp > CMakeFiles/MyGame.dir/include/renderer/Renderer.cpp.i
 
 CMakeFiles/MyGame.dir/include/renderer/Renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGame.dir/include/renderer/Renderer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/renderer/Renderer.cpp -o CMakeFiles/MyGame.dir/include/renderer/Renderer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dave/Documents/git/save-the-star-kingom/include/renderer/Renderer.cpp -o CMakeFiles/MyGame.dir/include/renderer/Renderer.cpp.s
 
 CMakeFiles/MyGame.dir/include/renderer/Renderer.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/MyGame.dir/include/renderer/Renderer.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/MyGame.dir/include/shader/Shader.cpp.o: CMakeFiles/MyGame.dir/flags.make
 CMakeFiles/MyGame.dir/include/shader/Shader.cpp.o: ../include/shader/Shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyGame.dir/include/shader/Shader.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyGame.dir/include/shader/Shader.cpp.o -c /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/shader/Shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dave/Documents/git/save-the-star-kingom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyGame.dir/include/shader/Shader.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyGame.dir/include/shader/Shader.cpp.o -c /home/dave/Documents/git/save-the-star-kingom/include/shader/Shader.cpp
 
 CMakeFiles/MyGame.dir/include/shader/Shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGame.dir/include/shader/Shader.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/shader/Shader.cpp > CMakeFiles/MyGame.dir/include/shader/Shader.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dave/Documents/git/save-the-star-kingom/include/shader/Shader.cpp > CMakeFiles/MyGame.dir/include/shader/Shader.cpp.i
 
 CMakeFiles/MyGame.dir/include/shader/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGame.dir/include/shader/Shader.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/shader/Shader.cpp -o CMakeFiles/MyGame.dir/include/shader/Shader.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dave/Documents/git/save-the-star-kingom/include/shader/Shader.cpp -o CMakeFiles/MyGame.dir/include/shader/Shader.cpp.s
 
 CMakeFiles/MyGame.dir/include/shader/Shader.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/MyGame.dir/include/shader/Shader.cpp.o.provides.build: CMakeFiles/MyG
 
 CMakeFiles/MyGame.dir/include/image/Image.cpp.o: CMakeFiles/MyGame.dir/flags.make
 CMakeFiles/MyGame.dir/include/image/Image.cpp.o: ../include/image/Image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyGame.dir/include/image/Image.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyGame.dir/include/image/Image.cpp.o -c /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/image/Image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dave/Documents/git/save-the-star-kingom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyGame.dir/include/image/Image.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyGame.dir/include/image/Image.cpp.o -c /home/dave/Documents/git/save-the-star-kingom/include/image/Image.cpp
 
 CMakeFiles/MyGame.dir/include/image/Image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyGame.dir/include/image/Image.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/image/Image.cpp > CMakeFiles/MyGame.dir/include/image/Image.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dave/Documents/git/save-the-star-kingom/include/image/Image.cpp > CMakeFiles/MyGame.dir/include/image/Image.cpp.i
 
 CMakeFiles/MyGame.dir/include/image/Image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyGame.dir/include/image/Image.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/image/Image.cpp -o CMakeFiles/MyGame.dir/include/image/Image.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dave/Documents/git/save-the-star-kingom/include/image/Image.cpp -o CMakeFiles/MyGame.dir/include/image/Image.cpp.s
 
 CMakeFiles/MyGame.dir/include/image/Image.cpp.o.requires:
 
@@ -204,7 +204,7 @@ MyGame: /usr/lib/x86_64-linux-gnu/libXinerama.so
 MyGame: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
 MyGame: /usr/lib/x86_64-linux-gnu/libXcursor.so
 MyGame: CMakeFiles/MyGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable MyGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dave/Documents/git/save-the-star-kingom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable MyGame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyGame.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -225,6 +225,6 @@ CMakeFiles/MyGame.dir/clean:
 .PHONY : CMakeFiles/MyGame.dir/clean
 
 CMakeFiles/MyGame.dir/depend:
-	cd /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/CMakeFiles/MyGame.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dave/Documents/git/save-the-star-kingom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dave/Documents/git/save-the-star-kingom /home/dave/Documents/git/save-the-star-kingom /home/dave/Documents/git/save-the-star-kingom/build /home/dave/Documents/git/save-the-star-kingom/build /home/dave/Documents/git/save-the-star-kingom/build/CMakeFiles/MyGame.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/MyGame.dir/depend
 

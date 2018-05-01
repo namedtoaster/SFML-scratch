@@ -4,21 +4,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glfw/src/context.c" "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/src/CMakeFiles/glfw.dir/context.c.o"
-  "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glfw/src/egl_context.c" "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o"
-  "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glfw/src/glx_context.c" "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o"
-  "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glfw/src/init.c" "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/src/CMakeFiles/glfw.dir/init.c.o"
-  "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glfw/src/input.c" "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/src/CMakeFiles/glfw.dir/input.c.o"
-  "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glfw/src/linux_joystick.c" "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o"
-  "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glfw/src/monitor.c" "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/src/CMakeFiles/glfw.dir/monitor.c.o"
-  "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glfw/src/posix_time.c" "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o"
-  "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glfw/src/posix_tls.c" "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/src/CMakeFiles/glfw.dir/posix_tls.c.o"
-  "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glfw/src/vulkan.c" "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o"
-  "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glfw/src/window.c" "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/src/CMakeFiles/glfw.dir/window.c.o"
-  "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glfw/src/x11_init.c" "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o"
-  "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glfw/src/x11_monitor.c" "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o"
-  "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glfw/src/x11_window.c" "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o"
-  "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glfw/src/xkb_unicode.c" "/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o"
+  "/home/dave/Documents/git/save-the-star-kingom/libraries/glfw/src/context.c" "/home/dave/Documents/git/save-the-star-kingom/build/libraries/glfw/src/CMakeFiles/glfw.dir/context.c.o"
+  "/home/dave/Documents/git/save-the-star-kingom/libraries/glfw/src/egl_context.c" "/home/dave/Documents/git/save-the-star-kingom/build/libraries/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o"
+  "/home/dave/Documents/git/save-the-star-kingom/libraries/glfw/src/glx_context.c" "/home/dave/Documents/git/save-the-star-kingom/build/libraries/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o"
+  "/home/dave/Documents/git/save-the-star-kingom/libraries/glfw/src/init.c" "/home/dave/Documents/git/save-the-star-kingom/build/libraries/glfw/src/CMakeFiles/glfw.dir/init.c.o"
+  "/home/dave/Documents/git/save-the-star-kingom/libraries/glfw/src/input.c" "/home/dave/Documents/git/save-the-star-kingom/build/libraries/glfw/src/CMakeFiles/glfw.dir/input.c.o"
+  "/home/dave/Documents/git/save-the-star-kingom/libraries/glfw/src/linux_joystick.c" "/home/dave/Documents/git/save-the-star-kingom/build/libraries/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o"
+  "/home/dave/Documents/git/save-the-star-kingom/libraries/glfw/src/monitor.c" "/home/dave/Documents/git/save-the-star-kingom/build/libraries/glfw/src/CMakeFiles/glfw.dir/monitor.c.o"
+  "/home/dave/Documents/git/save-the-star-kingom/libraries/glfw/src/posix_time.c" "/home/dave/Documents/git/save-the-star-kingom/build/libraries/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o"
+  "/home/dave/Documents/git/save-the-star-kingom/libraries/glfw/src/posix_tls.c" "/home/dave/Documents/git/save-the-star-kingom/build/libraries/glfw/src/CMakeFiles/glfw.dir/posix_tls.c.o"
+  "/home/dave/Documents/git/save-the-star-kingom/libraries/glfw/src/vulkan.c" "/home/dave/Documents/git/save-the-star-kingom/build/libraries/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o"
+  "/home/dave/Documents/git/save-the-star-kingom/libraries/glfw/src/window.c" "/home/dave/Documents/git/save-the-star-kingom/build/libraries/glfw/src/CMakeFiles/glfw.dir/window.c.o"
+  "/home/dave/Documents/git/save-the-star-kingom/libraries/glfw/src/x11_init.c" "/home/dave/Documents/git/save-the-star-kingom/build/libraries/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o"
+  "/home/dave/Documents/git/save-the-star-kingom/libraries/glfw/src/x11_monitor.c" "/home/dave/Documents/git/save-the-star-kingom/build/libraries/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o"
+  "/home/dave/Documents/git/save-the-star-kingom/libraries/glfw/src/x11_window.c" "/home/dave/Documents/git/save-the-star-kingom/build/libraries/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o"
+  "/home/dave/Documents/git/save-the-star-kingom/libraries/glfw/src/xkb_unicode.c" "/home/dave/Documents/git/save-the-star-kingom/build/libraries/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

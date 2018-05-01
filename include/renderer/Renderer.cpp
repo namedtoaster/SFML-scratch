@@ -11,7 +11,7 @@ int Renderer::drawImages() {
   //image1.draw();
 }
 
-int Renderer::loop(GLFWwindow *window) {
+int Renderer::render_screen(GLFWwindow *window) {
   /*// TEST
   Shader ourShader("../shaders/shader.vert", "../shaders/shader.frag");
 
@@ -56,7 +56,7 @@ int Renderer::loop(GLFWwindow *window) {
   // ------------------------------------------------------------------
   float vertices[] = {
     // positions         // colors
-    0.5f, -0.5f, 0.0f,  1.0f, 1.0f, 0.0f,   // bottom right
+    0.5f, -0.5f, 0.0f,  1.0f, 0.0f, 0.0f,   // bottom right
     -0.5f, -0.5f, 0.0f,  0.0f, 1.0f, 0.0f,   // bottom left
     0.0f, 0.5f, 0.0f,    0.0f, 0.0f, 1.0f    // top
   };
@@ -64,11 +64,11 @@ int Renderer::loop(GLFWwindow *window) {
   unsigned int VBO, VAO;
   Image image1(vertices);
 
-  glGenVertexArrays(1, &VAO);
-  glGenBuffers(1, &VBO);
+  glGenVertexArrays(1, &image1.VAO);
+  glGenBuffers(1, &image1.VBO);
 
   // bind the Vertex Array Object first, then bind and set vertex buffer(s), and then configure vertex attributes(s).
-  glBindVertexArray(VAO);
+  glBindVertexArray(image1.VAO);
 
   glBindBuffer(GL_ARRAY_BUFFER, image1.VBO);
   glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
@@ -114,7 +114,7 @@ int Renderer::loop(GLFWwindow *window) {
         int vertexColorLocation = glGetUniformLocation(shaderProgram, "ourColor");
         glUniform4f(vertexColorLocation, 0.0f, greenValue, 0.0f, 1.0f);*/
 
-      glBindVertexArray(VAO); // seeing as we only have a single VAO there's no need to bind it every time, but we'll do so to keep things a bit more organized
+      glBindVertexArray(image1.VAO); // seeing as we only have a single VAO there's no need to bind it every time, but we'll do so to keep things a bit more organized
       glDrawArrays(GL_TRIANGLES, 0, 3);
       // glBindVertexArray(0); // no need to unbind it every time 
  

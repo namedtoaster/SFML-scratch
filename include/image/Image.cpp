@@ -5,6 +5,8 @@
 
 #include "Image.h"
 
+Image::Image(float* vertex_data) : verts(vertex_data) {}
+
 void Image::bind() {
   glBindVertexArray(VAO);
 

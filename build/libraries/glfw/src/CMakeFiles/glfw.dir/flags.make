@@ -6,5 +6,5 @@ C_FLAGS = -fPIC   -Wall
 
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/image -I/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/shader -I/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/state -I/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/renderer -I/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glfw/include -I/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/libraries/glfw/src -I/home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/build/libraries/glfw/src 
+C_INCLUDES = -I/home/dave/Documents/git/save-the-star-kingom/include/image -I/home/dave/Documents/git/save-the-star-kingom/include/shader -I/home/dave/Documents/git/save-the-star-kingom/include/state -I/home/dave/Documents/git/save-the-star-kingom/include/renderer -I/home/dave/Documents/git/save-the-star-kingom/libraries/glfw/include -I/home/dave/Documents/git/save-the-star-kingom/libraries/glfw/src -I/home/dave/Documents/git/save-the-star-kingom/build/libraries/glfw/src 
 

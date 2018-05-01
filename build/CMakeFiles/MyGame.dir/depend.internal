@@ -5,21 +5,21 @@ CMakeFiles/MyGame.dir/include/image/Image.cpp.o
  ../libraries/glad/include/KHR/khrplatform.h
  ../libraries/glad/include/glad/glad.h
  ../libraries/glfw/include/GLFW/glfw3.h
- /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/image/Image.cpp
- /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/image/Image.h
+ /home/dave/Documents/git/save-the-star-kingom/include/image/Image.cpp
+ /home/dave/Documents/git/save-the-star-kingom/include/image/Image.h
 CMakeFiles/MyGame.dir/include/renderer/Renderer.cpp.o
  ../include/image/Image.h
  ../include/shader/Shader.h
  ../libraries/glad/include/KHR/khrplatform.h
  ../libraries/glad/include/glad/glad.h
  ../libraries/glfw/include/GLFW/glfw3.h
- /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/renderer/Renderer.cpp
- /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/renderer/Renderer.h
+ /home/dave/Documents/git/save-the-star-kingom/include/renderer/Renderer.cpp
+ /home/dave/Documents/git/save-the-star-kingom/include/renderer/Renderer.h
 CMakeFiles/MyGame.dir/include/shader/Shader.cpp.o
  ../libraries/glad/include/KHR/khrplatform.h
  ../libraries/glad/include/glad/glad.h
- /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/shader/Shader.cpp
- /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/include/shader/Shader.h
+ /home/dave/Documents/git/save-the-star-kingom/include/shader/Shader.cpp
+ /home/dave/Documents/git/save-the-star-kingom/include/shader/Shader.h
 CMakeFiles/MyGame.dir/source/Application.cpp.o
  ../include/image/Image.h
  ../include/renderer/Renderer.h
@@ -27,8 +27,8 @@ CMakeFiles/MyGame.dir/source/Application.cpp.o
  ../libraries/glad/include/KHR/khrplatform.h
  ../libraries/glad/include/glad/glad.h
  ../libraries/glfw/include/GLFW/glfw3.h
- /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/source/Application.cpp
- /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/source/Application.h
+ /home/dave/Documents/git/save-the-star-kingom/source/Application.cpp
+ /home/dave/Documents/git/save-the-star-kingom/source/Application.h
 CMakeFiles/MyGame.dir/source/main.cpp.o
  ../include/image/Image.h
  ../include/renderer/Renderer.h
@@ -36,5 +36,5 @@ CMakeFiles/MyGame.dir/source/main.cpp.o
  ../libraries/glad/include/KHR/khrplatform.h
  ../libraries/glad/include/glad/glad.h
  ../libraries/glfw/include/GLFW/glfw3.h
- /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/source/Application.h
- /home/dave/Documents/git/programming-math/programming/cpp/open-gl/mypotentialgame/source/main.cpp
+ /home/dave/Documents/git/save-the-star-kingom/source/Application.h
+ /home/dave/Documents/git/save-the-star-kingom/source/main.cpp
