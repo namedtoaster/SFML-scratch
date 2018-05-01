@@ -22,7 +22,7 @@ class Renderer {
   }
 
   int render_screen(GLFWwindow *);
-  int drawImages();
+  int draw_images();
   // private:
   Shader ourShader;
 };
