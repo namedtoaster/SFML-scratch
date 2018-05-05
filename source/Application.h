@@ -5,7 +5,7 @@
 
 class Application {
  public:
-  Application(int x, int y);
+ Application(int W = 600, int H = 600) : width(W), height(H) {}
   int init();
   int run();
  private:

@@ -6,8 +6,6 @@ using namespace std;
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 
-Application::Application(int W = 600, int H = 600) : width(W), height(H) {}
-
 int Application::init() {
   // glfw: initialize and configure
   // ------------------------------
@@ -15,6 +13,7 @@ int Application::init() {
   glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
   glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
   glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+  glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 
   // glfw window creation
   // --------------------
@@ -35,11 +34,15 @@ int Application::init() {
       std::cout << "Failed to initialize GLAD" << std::endl;
       return -1;
     }
+
+  return 0;
 }
 
 int Application::run() {
   Renderer renderer;
   renderer.render_screen(window);
+
+  return 0;
 }
 
 
