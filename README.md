@@ -1,2 +1,2 @@
 # Save-The-Star-Kingdom
-OpenGL Game
+Cross-platform OpenGL Game for Linux (Ubuntu) and Mac OS
