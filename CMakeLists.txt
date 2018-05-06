@@ -26,7 +26,12 @@ target_include_directories(${PROJECT_NAME} PRIVATE "${SRC_DIR}")
 set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 11)
 
 # GLFW
-set(GLFW_DIR "${LIB_DIR}/glfw")
+if (WIN32)
+    set(GLFW_DIR "${LIB_DIR}/win_glfw")
+endif (WIN32)
+if (UNIX)
+    set(GLFW_DIR "${LIB_DIR}/glfw")
+endif (UNIX)
 set(GLFW_BUILD_EXAMPLES OFF CACHE INTERNAL "Build the GLFW example programs")
 set(GLFW_BUILD_TESTS OFF CACHE INTERNAL "Build the GLFW test programs")
 set(GLFW_BUILD_DOCS OFF CACHE INTERNAL "Build the GLFW documentation")
