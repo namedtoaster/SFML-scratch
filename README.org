@@ -1,0 +1,24 @@
+# Save-The-Star-Kingdom
+Cross-platform OpenGL Game for Linux (Ubuntu) and Mac OS
+
+* Build instructions
+** Linux
+*** Build glfw
+    - cd to `libraries/glfw`
+    - mkdir build && cd build
+    - cmake .. && make
+*** Build the project
+    - mkdir build && cd build
+    - cmake .. && make
+
+  That's it!
+** MacOS
+   Same as Linux
+** Windows
+*** CMake GUI
+    - Load the project as the src directory. Select a new build directory inside the project root
+    - Configure, then generate
+    - Open the .sln file in the build directory
+      - Make sure the Platform Toolkits are set properly for each project
+      - Build
+**** If you're having difficulties, follow [[file:troubleshoot.org][this]] detailed guide on how to set up the Windows environment
