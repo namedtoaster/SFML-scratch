@@ -37,6 +37,8 @@ void processInput(GLFWwindow *window);
 int Renderer::draw_images() {
   // Eventually, this will need to go through a list of images and bind the VAOs then draw the arrays. For now, since there's only 1, we'll only do it once
   //image1.draw();
+	
+	return 0;
 }
 
 int Renderer::render_screen(GLFWwindow *window) {
