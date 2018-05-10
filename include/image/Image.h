@@ -1,8 +1,8 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
-#ifndef IMAGES_H
-#define IMAGES_H
+#ifndef IMAGE_H
+#define IMAGE_H
 
 class Image {
  public:
