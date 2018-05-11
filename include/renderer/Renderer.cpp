@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 #include "Renderer.h"
 #include "Shader.h"
@@ -14,7 +15,19 @@ int Renderer::draw_images() {
 }
 
 int Renderer::render_screen(GLFWwindow *window) {
-  Image image1;
+  // declare pos data
+  std::vector<float> pos =
+    {0.5f, -0.5f, 0.0f,  // bottom right
+     -0.5f, -0.5f, 0.0f, // bottom left
+     0.0f, 0.5f, 0.0f};  // top
+  // declare color data
+  std::vector<float> col =
+    {1.0f, 0.0f, 0.0f,   // bottom right
+     0.0f, 1.0f, 0.0f,   // bottom left
+     0.0f, 0.0f, 1.0f};  // top
+  Image image1(pos, col);
+
+  //  Texture
 
   // uncomment this call to draw in wireframe polygons.
   //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
