@@ -4,12 +4,12 @@ Cross-platform OpenGL Game for Linux (Ubuntu), Mac OS and Windows
 * Build instructions
 ** Linux
 *** Build glfw
-    - cd to `libraries/glfw`
-    - mkdir build && cd build
-    - cmake .. && make
+    - =cd libraries/glfw=
+    - =mkdir build && cd build=
+    - =cmake .. && make=
 *** Build the project
-    - mkdir build && cd build
-    - cmake .. && make
+    - =mkdir build && cd build=
+    - =cmake .. && make=
 
   That's it!
 ** MacOS
