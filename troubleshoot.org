@@ -1,0 +1,31 @@
+# Troubleshooting
+
+* Here is the detailed guide on how to download and install GLFW, build it, then build the project
+** Download the necessary files
+*** Download glfw from homepage
+*** Download the glfw 32-bit binaries as well (you'll need these later)
+** Copy directory to the project's 'libraries' directory and rename 'win_glfw' 
+** Open cmake-gui
+*** For source, use the directory you just copied
+*** For build directory, create 'build/' inside the 'win_glfw' directory and use that
+*** Click configure
+**** Change CMAKE_INSTALL_PREFIX to the 'win_include_lib' in the project's 'include' directory (if there are already folders in there, delete them)
+**** Click configure again
+*** Click generate
+** Go to the build directory created in 'win_glfw'
+*** Open the .sln file
+**** If your current VS configuration isn't set up like this already, change the platform toolset of the ALL_BUILD project to 'Visual Studio 2015 (v140)' (or whatever VS year you are using)
+**** Change the build type to Release
+**** Build the ALL_BUILD project
+**** Change the Platform Toolset for the INSTALL project as above
+**** Copy the contents from 'lib-vc2015' (located in the glfw binaries zip you downloaded earlier) into '../win_glfw/build/src/Release' (you will probably have to create the Release directory)
+**** Build the INSTALL project
+** Open cmake-gui (again)
+*** Set the source directory to your project and the build directory to the new one you will create now in the project directory
+*** Click configure
+*** Click generate
+*** Navigate to the .sln file in the build folder of your project and open it
+*** Make sure all projects have the appropriate platform toolset selected and...
+*** BUILD!
+
+You should now have an .exe file in you build/Debug (or Release, depending on what you selected). 

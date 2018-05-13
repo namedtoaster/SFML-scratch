@@ -1,15 +1,17 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include <vector>
 
-#ifndef IMAGES_H
-#define IMAGES_H
+#ifndef IMAGE_H
+#define IMAGE_H
 
 class Image {
  public:
-  Image(float*);
-  void bind();
-  //private:
-  float * verts;
+  Image(std::vector<float>&, std::vector<float>&);
+  void render();
+
+ private:
+  float verts[50];
   unsigned int VBO;
   unsigned int VAO;
 };

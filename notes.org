@@ -32,10 +32,23 @@ Some final boss - again, suggested by Sebastian
 There will have to be a way to determine what state the game is in. Depending on the state will determine what's on the screen and how to update the items
 *** Image Class
     Each item that is displayed in the game will be an image class at its core. Depending on what it is will determine what kind of subclass it is
-**** Buffers
-     Each image will need some VBOs and VAOs associated with it
-***** VBO
-      Each image instance will have at least two VBOs associated with it: the item's coordinates and its colors
+**** Methods
+***** Constructor(s)
+      There will be a base Image object that has no color associated with it. Just vertices. When this type of Image is rendered, it will have a black color (filled or just lines, or whatever other OpenGL options there are)
+****** Just verts
+****** verts and color
+****** verts, color, and texture
+**** Members
+     Each image will need some VBOs and VAOs associated with it. They will also probably need an EBO (if it's more than just a triangle)
+***** VAO, VBO, EBO
+***** Texture
+      It will be possible to load a texture for an image. The Texture Class is described below
+*** Texture class
+    The Texture class will be used by the Image class if there is a texture to be loaded
+**** Methods
+***** Constructor
+      The constructor will just load the texture that will be used by the Image class
+**** Members
 **** Menu Class
  The game will have menu items all over the place for when you start the game, pause the game, etc. This class will contain the details of the menu item. It will probably inherit from a parent ?Image? class
 ***** Members
