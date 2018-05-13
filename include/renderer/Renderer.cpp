@@ -56,7 +56,7 @@ int Renderer::render_screen(GLFWwindow *window) {
   glBindVertexArray(image1.VAO);
 
   glBindBuffer(GL_ARRAY_BUFFER, image1.VBO);
-  // NOTE: The image will only be drawn to the screen if using the vertices var, NOT the image1.verts member. Not really sure why, but this seems to be the source of my problem
+  // NOTE: The image will only be drawn to the screen if using the vertices var, NOT the image1.verts member. Not really sure why, but this seems to be the source of my problmem
   glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 
   // position attribute
