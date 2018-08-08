@@ -1,0 +1,3 @@
+﻿  Player.cpp
+c:\users\afdav\documents\repos\save-the-star-kingdom\sfml\sfml-engine\sfml-engine\constants.h(16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  SFML-engine.vcxproj -> C:\Users\afdav\Documents\Repos\Save-The-Star-Kingdom\SFML\SFML-engine\SFML-engine.vssln\SFML-engine\Debug\SFML-engine.exe

@@ -10,6 +10,9 @@
 #include <fstream>
 #include <iostream>
 
+// TODO: put the name of the map file in a config file
+const char* mapFile = "sewer_1.png";
+
 Map::Map(const std::string &filename) {
     // load the file
     // read the metadata
@@ -34,8 +37,10 @@ Map::Map(const std::string &filename) {
     
     // load the texture - there will only be one
     // by default, just use 10 sprites per "row"
-    if (!_texture.loadFromFile("sewer_1.png")) {
-        return EXIT_FAILURE;
+    if (!_texture.loadFromFile(mapFile)) {
+        // TODO: throw exception
+		//return EXIT_FAILURE;
+		std::cout << "Could not load " << mapFile << std::endl;
     }
     
     for (int i = 0; i < _numSprites; i++) {

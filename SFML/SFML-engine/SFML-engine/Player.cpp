@@ -9,10 +9,11 @@
 #include "Player.hpp"
 #include <iostream>
 
+//const char* file = "C:\\Users\\afdav\\Documents\\Repos\\Save-The-Star-Kingdom\\SFML\\SFML-engine\\SFML-engine\\pixar.jpg";
+const char* file = "pixar.jpg";
+
 Player::Player() : _posX(PLAYER_START_X), _posY(PLAYER_START_Y), _isJumping(false), _velX(0.0f), _velY(0.0f), _accelX(0.0f), _accelY(0.0f) {
-    if (!_texture.loadFromFile("pixar.jpg")) {
-        return EXIT_FAILURE;
-    }
+	_texture.loadFromFile(file);
     
     // Initialize sprite/texture
     _sprite.setTexture(_texture);

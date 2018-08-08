@@ -9,6 +9,9 @@
 #include "Game.hpp"
 //#include "Constants.h"
 
+const char* iconFile = "icon.png";
+const char* bgFile = "cute_image.jpg";
+
 Game::Game() : _window(sf::VideoMode(WIDTH, HEIGHT), "SFML test"), _map("data") {
     _state = PLAY;
     _isJumping = false;
@@ -36,14 +39,19 @@ void Game::_init() {
     
     // Set the Icon
     sf::Image icon;
-    if (!icon.loadFromFile("icon.png")) {
-        return EXIT_FAILURE;
+
+    if (!icon.loadFromFile(iconFile)) {
+        // TODO: throw exception
+		//return EXIT_FAILURE;
+		std::cout << "Could not load " << iconFile << std::endl;
     }
     _window.setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
     
     // Load the background
-    if (!_bgTexture.loadFromFile("cute_image.jpg")) {
-        return EXIT_FAILURE;
+    if (!_bgTexture.loadFromFile(bgFile)) {
+        // TODO: throw exception
+		//return EXIT_FAILURE;
+		std::cout << "Could not load " << bgFile << std::endl;
     }
     _background.setTexture(_bgTexture);
     
